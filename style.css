@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+header{
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(360deg, black,blue);
+    color: white;
+    width:100%;
+    font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+    margin: 0;
+}
+body{
+    word-spacing: 4px;
+    margin: 0;
+    background:linear-gradient(orange,#F5627A);
+    background-repeat: no-repeat;
+    font-family: 'Anton', sans-serif;
+}
+.inicio{
+    display: flex;
+    color:#6A64DE;
+    justify-content: center;
+}
+.eje{
+    display: flex;
+    justify-content:center ;
+}
+button{
+    width: 60px;
+    height: 60px;
+}
+.nota{
+    display: flex;
+    justify-content: center;
+    color: greenyellow ;
+}
+.boton button{
+    background-color: greenyellow;
+    width: max-content;
+    height: 100px;
+    font-family: 'Anton', sans-serif;
+    color:darkblue;
+    font-size: x-large;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgba(0,0,0,0.5);
+}
+footer{
+    display: flex;
+    justify-content:flex-start;
+    background:linear-gradient(360deg, black,blue);
+    color: white;
+    width:100%;
+    font-family: 'Anton', sans-serif;
+    font-size:small;
+    margin: 0;
+}
